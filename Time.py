@@ -1,3 +1,25 @@
+# ---------- MAGIC METHODS ----------
+# Magic methods are surrounded by double underscores
+# We can use magic methods to define how operators
+# like +, -, *, /, ==, >, <, etc. will work with our
+# custom objects
+
+# Magic methods are used for operator overloading
+# in Python
+
+# __eq__ : Equal
+# __ne__ : Not Equal
+# __lt__ : Less Than
+# __gt__ : Greater Than
+# __le__ : Less Than or Equal
+# __ge__ : Greater Than or Equal
+# __add__ : Addition
+# __sub__ : Subtraction
+# __mul__ : Multiplication
+# __div__ : Division
+# __mod__ : Modulus
+
+
 class Time:
     def __init__(self, hour=0, minute=0, second=0):
         self.hour = hour
